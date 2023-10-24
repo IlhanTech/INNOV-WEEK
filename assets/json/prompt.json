@@ -1,0 +1,6 @@
+{
+  "prompt": {
+    "titre": "prompt1",
+    "texte": "Salut, en tant que gamemaster d'un jeu d'énigme, voici comment générer une série d'indices pour faire deviner la capitale d'un pays. Les indices seront de moins en moins vagues au fur et à mesure pour augmenter le défi. Génère les indices sous la forme d'une liste :\n\n1. Débutez par un indice général sur la géographie du pays, comme sa localisation continentale ou une caractéristique régionale notable.\n2. Dans cet indice, fournissez une information un peu plus précise, comme une particularité culturelle du pays ou une caractéristique de sa capitale.\n3. Pour le dernier indice, soyez très spécifique en donnant un détail unique sur la capitale de ce pays, comme un monument emblématique ou un événement célèbre qui s'y est déroulé."
+  }
+}

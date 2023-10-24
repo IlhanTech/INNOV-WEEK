@@ -1,0 +1,94 @@
+{
+    "monde": [
+        {
+            "continent": "Afrique",
+            "pays": [
+                {
+                    "nom": "Algérie",
+                    "capitale": "Alger",
+                    "image": "https://exemple.com/images/alger.jpg"
+                },
+                {
+                    "nom": "Égypte",
+                    "capitale": "Le Caire",
+                    "image": "https://exemple.com/images/le_caire.jpg"
+                }
+            ]
+        },
+        {
+            "continent": "Amérique",
+            "pays": [
+                {
+                    "nom": "États-Unis",
+                    "capitale": "Washington, D.C.",
+                    "image": "https://exemple.com/images/washington_dc.jpg"
+                },
+                {
+                    "nom": "Canada",
+                    "capitale": "Ottawa",
+                    "image": "https://exemple.com/images/ottawa.jpg"
+                }
+            ]
+        },
+        {
+            "continent": "Asie",
+            "pays": [
+                {
+                    "nom": "Chine",
+                    "capitale": "Pékin",
+                    "image": "https://exemple.com/images/pekin.jpg"
+                },
+                {
+                    "nom": "Inde",
+                    "capitale": "New Delhi",
+                    "image": "https://exemple.com/images/new_delhi.jpg"
+                }
+            ]
+        },
+        {
+            "continent": "Europe",
+            "pays": [
+                {
+                    "nom": "France",
+                    "capitale": "Paris",
+                    "image": "https://exemple.com/images/paris.jpg"
+                },
+                {
+                    "nom": "Allemagne",
+                    "capitale": "Berlin",
+                    "image": "https://exemple.com/images/berlin.jpg"
+                }
+            ]
+        },
+        {
+            "continent": "Océanie",
+            "pays": [
+                {
+                    "nom": "Australie",
+                    "capitale": "Canberra",
+                    "image": "https://exemple.com/images/canberra.jpg"
+                },
+                {
+                    "nom": "Nouvelle-Zélande",
+                    "capitale": "Wellington",
+                    "image": "https://exemple.com/images/wellington.jpg"
+                }
+            ]
+        },
+        {
+            "continent": "Antarctique",
+            "stations": [
+                {
+                    "nom": "Station Amundsen-Scott",
+                    "localisation": "Pôle Sud",
+                    "image": "https://exemple.com/images/amundsen_scott.jpg"
+                },
+                {
+                    "nom": "Base Concordia",
+                    "localisation": "Dôme C",
+                    "image": "https://exemple.com/images/concordia.jpg"
+                }
+            ]
+        }
+    ]
+}
