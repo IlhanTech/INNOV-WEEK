@@ -29,7 +29,3 @@ def parse_response_ia(response):
     else:
         print("Réponse vide")
         return None
-
-
-
-

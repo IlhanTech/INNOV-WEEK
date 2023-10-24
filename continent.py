@@ -30,25 +30,9 @@ class ContinentView(discord.ui.View):
         self.selection_done.set()
 
     async def handle_continent_selection(self, continent):
-        with open('assets/json/capitale.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        for continent_data in data["monde"]:
-            if continent_data["continent"] == continent:
-                capitales = []
-                if "pays" in continent_data:
-                    for pays in continent_data["pays"]:
-                        if "capitale" in pays:
-                            capitales.append(pays["capitale"])
-                elif "stations" in continent_data:
-                    for station in continent_data["stations"]:
-                        if "localisation" in station:
-                            capitales.append(station["localisation"])
-
-                if capitales:
-                    capitale_choisie = random.choice(capitales)
-                    prompt_text = utils.get_prompt_by_title("assets/json/prompt.json", "prompt1", capitale_choisie)
-                    hint = generate_enigma.get_hint_from_gpt(self.api_key_openai, prompt_text)
-                    return hint
-                else:
-                    print(f"Aucune capitale trouvée pour {continent}")
+        if continent:
+            prompt_text = utils.get_prompt_by_title("assets/json/prompt.json", "prompt1", continent)
+            hint = generate_enigma.get_hint_from_gpt(self.api_key_openai, prompt_text)
+            return hint
+        else:
+            print(f"Aucun continent trouvée")
